@@ -12,6 +12,13 @@ const config: Config = {
         background: "var(--background)",
         foreground: "var(--foreground)",
       },
+      fontFamily: {
+        serif: ['"Playfair Display"', "serif"],
+        bodonimoda: ["var(--font-bodonimoda)"],
+        prata: ["var(--font-prata)"],
+        philosopher: ["var(--font-philosopher)"],
+        roboto: ["var(--font-roboto)"],
+      },
     },
   },
   plugins: [],
